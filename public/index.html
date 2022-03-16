@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <title>WebRTC screen share</title>
+    </head>
+    <body>
+        <button id="start-conn">Start Conn</button>
+
+        <button id="add-camera">Add Camera</button>
+
+        <button id="add-screen">Add Screen Share</button>
+
+        <h3>Local Video</h3>
+        <video id="localVideo" width="900" height="600" autoplay muted></video>
+
+        <h3>Remote Video</h3>
+        <video id="remoteVideo" width="900" height="600" autoplay></video>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js" crossorigin="anonymous"></script>
+    <script type="module" src="main.js"></script>
+</html>
